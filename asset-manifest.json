@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/XTASY-23/static/css/main.40935a0b.css",
-    "main.js": "/XTASY-23/static/js/main.bf019afb.js",
+    "main.css": "/XTASY-23/static/css/main.5302bdd3.css",
+    "main.js": "/XTASY-23/static/js/main.66038527.js",
     "static/media/IEDC.png": "/XTASY-23/static/media/IEDC.92718bcce52e391572aa.png",
     "static/media/WebDC.png": "/XTASY-23/static/media/WebDC.25f76a38206f433af51d.png",
     "static/media/Rasi Kp.jpeg": "/XTASY-23/static/media/Rasi Kp.f33b244c24d17629f77c.jpeg",
@@ -25,11 +25,11 @@
     "static/media/bootstrap.png": "/XTASY-23/static/media/bootstrap.f9fdc604d11d0f3fee26.png",
     "static/media/tailwind.png": "/XTASY-23/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "index.html": "/XTASY-23/index.html",
-    "main.40935a0b.css.map": "/XTASY-23/static/css/main.40935a0b.css.map",
-    "main.bf019afb.js.map": "/XTASY-23/static/js/main.bf019afb.js.map"
+    "main.5302bdd3.css.map": "/XTASY-23/static/css/main.5302bdd3.css.map",
+    "main.66038527.js.map": "/XTASY-23/static/js/main.66038527.js.map"
   },
   "entrypoints": [
-    "static/css/main.40935a0b.css",
-    "static/js/main.bf019afb.js"
+    "static/css/main.5302bdd3.css",
+    "static/js/main.66038527.js"
   ]
 }

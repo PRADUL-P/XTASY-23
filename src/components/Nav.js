@@ -35,13 +35,16 @@ const Nav = () => {
     setIsHovering4(false);
   };
   return (
-    
-    <nav className="bottom-2 fixed  lg:bottom-8 w-full  overflow-hidden z-50">
-      <div className="container mx-auto">
-        <div
-          className="w-full bg-black/20 h-[86px]  backdrop-blur-2xl rounded-full 
-  max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50"
-        >
+  //   <nav className="bottom-2 fixed  lg:bottom-8 w-full  overflow-hidden z-50">
+  //     <div className="container mx-auto">
+  //       <div
+  //         className="w-full bg-black/20 h-[86px]  backdrop-blur-2xl rounded-full 
+  // max-w-[460px] mx-auto px-5 flex justify-between items-center text-2xl text-white/50"
+  //       >
+      
+  <nav className="lg:left-0 lg:fixed lg:top-[35%]  bottom-2 fixed w-full  overflow-hidden z-50">
+  <div className="container ">
+    <div className="lg:left-0 lg:h-[300px] lg:w-10 w-full h-[50px] max-w-[460px] flex bg-black/20 backdrop-blur-2xl rounded-3xl  lg:flex-col justify-between items-center text-2xl text-white/50">
           <Link
             to="home"
             activeClass="active"

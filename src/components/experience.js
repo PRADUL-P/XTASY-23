@@ -1,16 +1,10 @@
 import React from "react";
 
-import html from "../assets/experience/html.png";
-import css from "../assets/experience/css.png";
-import javascript from "../assets/experience/javascript.png";
-import reactImage from "../assets/experience/react.png";
-import nextjs from "../assets/experience/nextjs.png";
-import graphql from "../assets/experience/graphql.png";
-import github from "../assets/experience/github.png";
-import tailwind from "../assets/experience/tailwind.png";
-import Bootstrap from "../assets/experience/bootstrap.png";
-import Python from "../assets/experience/python.png";
-import Java from "../assets/experience/java.png";
+import kazberianz from "../assets/experience/kazberianz.png";
+import cyborgs from "../assets/experience/cyborgs.png";
+import stallionz from "../assets/experience/stallionz.png";
+import xantrons from "../assets/experience/xantrons.png";
+
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -18,27 +12,27 @@ const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
+      src: kazberianz,
       title: "",
-      style: "shadow-orange-500",
+      style: "shadow-black-500",
     },
     {
       id: 2,
-      src: css,
+      src: cyborgs,
       title: "",
-      style: "shadow-blue-500",
+      style: "shadow-white-500",
     },
     {
       id: 3,
-      src: javascript,
+      src: stallionz,
       title: "",
-      style: "shadow-yellow-500",
+      style: "shadow-red-500",
     },
     {
       id: 4,
-      src: reactImage,
+      src: xantrons,
       title: "",
-      style: "shadow-blue-600",
+      style: "shadow-orange-600",
     },
     //{
     //  id: 5,

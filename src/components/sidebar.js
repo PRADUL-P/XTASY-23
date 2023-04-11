@@ -1,87 +1,30 @@
-import React from "react";
-import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+import React from 'react';
 
+const Card = ({ children }) => {
+  return <div className="border rounded-lg shadow-lg p-4">{children}</div>;
+};
 
-const SocialLinks = () => {
-  const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/company/vblaze-edu/",
-      style: "rounded-tr-md",
-    },
-    {
-      id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
-      href: "https://github.com/VBLAZE-STM",
-    },
-    {
-      id: 3,
-      child: (
-        <>
-          Instagram <FaInstagram size={30} />
-        </>
-      ),
-      href: "https://www.instagram.com/vblaze_stm/",
-      
-    },
-    // {
-    //   id: 4,
-    //   child: (
-    //     <>
-    //       Resume <BsFillPersonLinesFill size={30} />
-    //     </>
-    //   ),
-    //   href: "/resume.pdf",
-    //   style: "rounded-br-md",
-    //   download: true,
-    // },
-    {
-      id: 4,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
-      href: "mailto:vblaze.stm@gmail.com",
-    },
-  ];
+const IframeExample = () => {
+  const iframeContent = `
+ 
+  
+              <div class="counter-value" data-count="0">0</div></li>
+          
+              
+  `;
 
   return (
-    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              " " +
-              style
-            }
-          >
-            <a
-              href={href}
-              className="flex justify-between items-center w-full text-white"
-              download={download}
-              target="_blank"
-              rel="noreferrer"
-            >
-              {child}
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="max-w-3xl mx-auto">
+      <Card>
+        <iframe
+          title="Statistics Website"
+          width="100%"
+          height="600px"
+          srcDoc={iframeContent}
+        />
+      </Card>
     </div>
   );
 };
 
-export default SocialLinks;
+export default IframeExample;

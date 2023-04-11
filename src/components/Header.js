@@ -4,12 +4,12 @@ import Logo from '../assets/image.png'
 
 
 const Header = () => {
-  return <header className='py-8'>
+  return <header className='mt-0'>
     <div className='container mx-auto'>
       <div className='flex justify-between items-center'>
 
         <Link to='/'>
-          <img className='h-[50px]' src={Logo} alt='' />
+          <img className='h-[200px]' src={Logo} alt='' />
         </Link>
         <Link to='/contact'>
           <button className='btn btn-sm'> Gallery</button></Link>

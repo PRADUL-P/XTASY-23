@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/XTASY-23/static/css/main.9f8b632d.css",
+    "main.js": "/XTASY-23/static/js/main.301f19b5.js",
+    "static/media/IEDC.png": "/XTASY-23/static/media/IEDC.92718bcce52e391572aa.png",
+    "static/media/WebDC.png": "/XTASY-23/static/media/WebDC.25f76a38206f433af51d.png",
+    "static/media/Rasi Kp.jpeg": "/XTASY-23/static/media/Rasi Kp.f33b244c24d17629f77c.jpeg",
+    "static/media/ignite.png": "/XTASY-23/static/media/ignite.95c6b8bf6e60b3121ce7.png",
+    "static/media/xantrons.png": "/XTASY-23/static/media/xantrons.5dd0fc7e72c576d482b4.png",
+    "static/media/stallionz.png": "/XTASY-23/static/media/stallionz.2cb34387f15ca97d4c97.png",
+    "static/media/web1.png": "/XTASY-23/static/media/web1.1ad2b62c764bedde6345.png",
+    "static/media/services.png": "/XTASY-23/static/media/services.8ef92f234693ea56e7f3.png",
+    "static/media/site-bg.jpg": "/XTASY-23/static/media/site-bg.12110ae7af1eeb092a70.jpg",
+    "static/media/Jithin.jpeg": "/XTASY-23/static/media/Jithin.045f5c1b53784c6f0207.jpeg",
+    "static/media/cyborgs.png": "/XTASY-23/static/media/cyborgs.24dd8a58d6757bfc5e00.png",
+    "static/media/image.png": "/XTASY-23/static/media/image.c62be52430ba3fef69a4.png",
+    "static/media/kazberianz.png": "/XTASY-23/static/media/kazberianz.3fa02ef456b7162dfde7.png",
+    "static/media/Pradul P.jpeg": "/XTASY-23/static/media/Pradul P.12380401b0f78f2b9686.jpeg",
+    "static/media/Muhammed Minhaj Mahroof.jpeg": "/XTASY-23/static/media/Muhammed Minhaj Mahroof.7a5ad3436ba9f21d404d.jpeg",
+    "index.html": "/XTASY-23/index.html",
+    "main.9f8b632d.css.map": "/XTASY-23/static/css/main.9f8b632d.css.map",
+    "main.301f19b5.js.map": "/XTASY-23/static/js/main.301f19b5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f8b632d.css",
+    "static/js/main.301f19b5.js"
+  ]
+}
